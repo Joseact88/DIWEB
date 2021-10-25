@@ -1,0 +1,41 @@
+body
+{
+    background-color: #C6D9EE;
+    font-family: sans-serif;
+}
+h1
+{
+    font-size: 300%;
+    text-align: right;
+}
+span
+{
+    color: red;
+}
+h2
+{
+    font-size: 240%;
+    line-height: 55px;
+}
+b
+{
+    color: #D2691E;
+}
+i
+{
+    color:green;
+    background-color: white;
+}
+p
+{
+    text-indent: 5%;
+    line-height: 35px;
+}
+time
+{
+    color: #FF8C00;
+}
+address
+{
+    text-align:center;
+}

@@ -1,0 +1,36 @@
+body
+{
+    background-color: #C6E0EC;
+    font-family: sans-serif;
+}
+h1
+{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 300%;
+}
+h2
+{
+    font-size: 200%;
+    background-color: #4099BF;
+}
+h3
+{
+    background-color: #79B8D2;
+    color: white;
+    font-size: 150%;
+}
+pre
+{
+    background-color: white;
+    font-weight: bold;
+    font-size: 120%;
+}
+p
+{
+    word-spacing: 2px;
+}
+address
+{
+    text-align: right;
+}
