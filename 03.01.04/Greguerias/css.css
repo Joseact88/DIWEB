@@ -1,0 +1,34 @@
+body
+{
+    background-color: #2D8652;
+}
+h1
+{
+    font-size: 300%;
+    text-transform: capitalize;
+}
+.blanco
+{
+    color: white;
+    font-style: oblique;
+}
+.salmon
+{
+    color: #FFDFB3;
+    font-family: sans-serif;
+}
+.amarillo
+{
+    color: #FF9F1A;
+    font-size: 170%;
+    font-family: monospace;
+}
+.rosa
+{
+    color: #E6194D;
+    font-family: cursive;
+}
+p
+{
+    font-size: 150%;
+}
