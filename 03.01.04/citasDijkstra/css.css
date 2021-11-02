@@ -1,0 +1,55 @@
+body
+{
+    background-color: #267352;
+    font-family: sans-serif;
+}
+h1
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-shadow: black 5px 5px;
+    font-size: 250%;
+}
+p 
+{
+    text-align: justify;
+    font-size: 120%;
+    color: white;
+}
+.introduccion
+{
+    background-color: white;
+    border: solid black 10px;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: black;
+    text-align: left;
+}
+.uno
+{
+    border: solid #802400 20px;
+    border-radius: 20px 0px 0px 20px;
+    background-color: #AC5A39;
+    margin-right: 50%;
+    padding: 10px;
+}
+.dos
+{
+    border: solid #804800 15px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #AC7A39;
+    margin-left: 50%;
+    padding: 5px;
+}
+.tres
+{
+    border: dashed #3978AC 5px;
+    background-color: #004680;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+}
