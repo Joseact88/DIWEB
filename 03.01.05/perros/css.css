@@ -1,0 +1,86 @@
+@font-face 
+{
+    font-family: "SigmarOne";
+    src: url("sigmar-one.woff");
+}
+body
+{
+    background-color: #E9F2FB;
+    font-family: sans-serif;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h1
+{
+    margin: 0;
+    font-family: "SigmarOne";
+    font-size: 300%;
+    text-align: center;
+}
+h2
+{
+    font-family: "SigmarOne";
+    color: #7A99B8;
+    font-size: 300%;
+    text-transform: capitalize;
+    text-shadow: 3px 3px black ;
+}
+i
+{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 120%;
+}
+b
+{
+    color: red;
+    background-color: white;
+}
+time
+{
+    color: blue;
+}
+
+hr
+{
+    margin:40px auto;
+    height: 10px;
+    border-radius: 20px;
+    border-color: black;
+    background-color: #7A99B8;
+    width: 66%;
+}
+
+img
+{
+    border: 5px solid #7A99B8;
+    padding: 5px;
+}
+.izquierda
+{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.derecha
+{
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.centroP
+{
+    text-align: center;
+}
+.izquierdaP
+{
+    float: left;
+    width: 33%;
+}
+
+address
+{
+    text-align: right;
+    font-style: normal;
+}
