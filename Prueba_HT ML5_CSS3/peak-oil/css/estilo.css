@@ -1,0 +1,104 @@
+body
+{
+    background-color: #cccecc;
+    font-family: sans-serif;
+}
+#contenedor
+{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+h1
+{
+    padding-top: 10px;
+    font-size: 250%;
+    text-align: right;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+h2
+{
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #808080;
+    padding:5px;
+}
+main 
+{
+    margin-top: 0%;
+    background-color: #e6e6e6;
+}
+section
+{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+section + section 
+{
+    margin-top: 20px;
+}
+a
+{
+    color: blue;
+    text-decoration: underline;
+    padding: 5px;
+}
+.enlaces
+{
+    background-color: white;
+    margin-top: 7%;
+    float: left;
+    border: gray solid 1px;
+    box-shadow: 3px 3px gray;
+}
+i.underline
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+i.red
+{
+    color: red;
+}
+b
+{
+    text-transform: capitalize;
+}
+hr
+{
+    background-color: #efc11a;
+    width: 60%;
+    height: 5px;
+    border-color: black;
+}
+h3
+{
+    color: white;
+    background-color: #b4b2b4;
+}
+.white
+{
+    background-color: white;
+}
+p
+{
+    text-indent: 25px;
+    padding:5px;
+    margin: 5px;
+}
+
+address
+{
+    background-color: #efc11a;
+}
+.centro
+{
+    display:block;
+    margin:auto;
+}
+#asustado
+{
+    float: right;
+    font-size: 75px;
+}
