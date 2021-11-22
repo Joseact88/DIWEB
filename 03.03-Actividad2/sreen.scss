@@ -1,0 +1,58 @@
+//VAriables
+$colorTexto: #eee;
+$colorFondo:#666;
+$colorTextoHover:#fff;
+$colorFondoHover:#888;
+//Mixins
+
+@mixin color {
+    background-color: $colorFondo;
+    color: $colorTexto;
+}
+
+@mixin colorHover {
+    background-color: $colorFondoHover;
+    color:$colorTextoHover;
+}
+
+@mixin tamanyo-box ($tamanyo){
+    box-sizing: $tamanyo;
+    -moz-box-sizing: $tamanyo;
+    -webkit-box-sizing: $tamanyo;
+}
+
+@mixin transicion($property, $duration, $timing:linear) {
+    -moz-transition: $property $duration $timing;
+    -webkit-transition: $property $duration $timing;
+    transition: $property $duration $timing;
+}
+
+@mixin animacion($name, $duration, $timing:linear) {
+    -moz-animation: $name $duration $timing;
+    -webkit-animation: $name $duration $timing;
+    animation: $name $duration $timing;
+}
+//Hacemos el import del menú
+@import '_menu.scss';
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    padding: 12px 30px;
+    font-size: 1.8em;
+    color: #444;
+    background-color: #eee;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #aaa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer {
+    @include color;
+    @include tamanyo-box(border-box);
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding: 5px;
+}
