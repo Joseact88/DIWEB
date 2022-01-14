@@ -1,0 +1,30 @@
+div{
+    border:solid black 3px; 
+}
+.margen{
+    background-color:green;
+    height:60px;
+}
+.margen2{
+    background-color:green;
+    height: 30px;
+}
+.rojo{
+    background-color: red;
+    height: 500px;
+}
+.compuesto{
+    height: 500px;
+}
+.rosa{
+    background-color: pink;
+    height: 50px;
+}
+.naranja{
+    background-color: orange;
+    height: 200px;
+}
+.azul{
+    background-color: blue;
+    height: 117px;
+}

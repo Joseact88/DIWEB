@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h4,
+p {
+  margin: 0px;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  color: #666666;
+  font-family: "Montserrat";
+  margin: 20px auto;
+  width: 90%;
+}
+.container{
+  display: flex;
+}
+header{
+  border-bottom: black solid;
+  align-self: flex-start;
+}
+h1{
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
